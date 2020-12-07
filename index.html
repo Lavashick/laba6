@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Стек протоколов TCP/IP</a>
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand" href="#">Стандартизация в Internet</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -20,13 +20,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item pl-2">
-            <a class="nav-link" href="#1">А что это?</a>
+            <a class="nav-link" href="#1">Кто и как разрабатывает стандарты?</a>
           </li>
           <li class="nav-item pl-2">
-            <a class="nav-link" href="#2">Модель TCP/IP</a>
-          </li>
-          <li class="nav-item pl-2">
-            <a class="nav-link" href="#3">Стек протоколов TCP/IP</a>
+            <a class="nav-link" href="#2">О роли стандартизации в Интернет</a>
           </li>
           <li class="nav-item">
             <div class="dropdown pt-1 pl-2">
@@ -106,11 +103,13 @@
   </header>
   <section id="1">
     <br>
-    <h2 class="text-center">А что это?</h2>
+    <h2 class="text-center">Стандартизация в Internet.</h2>
     <br>
-    <img src="https://cosced.ru/wp-content/uploads/2019/08/tcp-ip.jpg" class="img-fluid col-12" alt="asd">
+    <div class="col-12 col-md-6 col-xl-4 m-auto col ">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5ZGUjQEtd3Lbf8IuzEcINal_P9pFXLbTjWw&usqp=CAU" class="img-fluid col-12 " alt="asd">
+    </div>
     <div class="col-sm-12 col-md-10 m-auto">
-      <p><br> <strong>TCP/IP</strong> — сетевая модель передачи данных, представленных в цифровом виде. Модель описывает способ передачи данных от источника информации к получателю. В модели предполагается прохождение информации через четыре уровня, каждый из которых описывается правилом (протоколом передачи).
+      <p>Разработкой стандартов Internet занимается Инженерная команда Internet (Internet Engineering Task Force, IETF). IETF — это широкое сообщество разработчиков и продвинутых пользователей технологий Internet, желающих участвовать в развитии инфраструктуры сети.
       </p>
       <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
@@ -126,9 +125,9 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>
+      </div>  
       <div class="modal-body">
-        <strong>TCP/IP</strong> — <a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%B0%D1%8F_%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C">сетевая модель</a> передачи данных, представленных в цифровом виде. Модель описывает способ передачи данных от источника информации к получателю. В модели предполагается прохождение информации через четыре уровня, каждый из которых описывается правилом (протоколом передачи). Наборы правил, решающих задачу по передаче данных, составляют стек протоколов передачи данных, на которых базируется<a href="https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82"> Интернет[1][2]</a>. Название TCP/IP происходит из двух важнейших протоколов семейства —<a href="https://ru.wikipedia.org/wiki/Transmission_Control_Protocol">Transmission Control Protocol (TCP)</a> и<a href="https://ru.wikipedia.org/wiki/Internet_Protocol"> Internet Protocol (IP)</a>, которые были первыми разработаны и описаны в данном стандарте. Также изредка упоминается как модель<a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C_DOD"> DOD (Department of Defense)[3]</a> в связи с историческим происхождением от сети ARPANET из 1970-х годов (под управлением<a href="https://ru.wikipedia.org/wiki/DARPA"> DARPA</a> ,<a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D0%BD%D1%8B_%D0%A1%D0%A8%D0%90"> Министерства обороны США[4]</a>).
+        <p>Разработкой стандартов Internet занимается Инженерная команда Internet (Internet Engineering Task Force, IETF). IETF — это широкое сообщество разработчиков и продвинутых пользователей технологий Internet, желающих участвовать в развитии инфраструктуры сети. Членство в IETF неформальное, к ней фактически принадлежит каждый, кто участвует в одной из рабочих групп — на ее "физических" встречах во время сессий IETF или, чаще, посредством соответствующей почтовой конференции (списка рассылки).</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
@@ -137,19 +136,19 @@
   </div>
 </div>
     </div>
-  </section id="2">
+  </section>
   <section class="col-sm-12 col-md-10 m-auto">
-    <h2 class="text-center">Модель TCP/IP</h2>
+    <h2 class="text-center" id="2">О роли стандартизации в интернете</h2>
     <p class="text-center">
-      Изначально данный стек создавался для объединения больших компьютеров в университетах по телефонным линиям связи соединения «точка-точка». Но когда появились новые технологии, широковещательные (Ethernet) и спутниковые, возникла необходимость адаптировать TCP/IP, что оказалось непростой задачей. Именно поэтому наряду с OSI появилась модель TCP/IP.
+      Как следует из всего вышеизложенного, Интернет является очень сложной сетью, и соответственно такой же сложной является задача организации взаимодействия между устройствами сети. Для решения такого рода задач используется декомпозиция, т.е. разбиение сложной задачи на несколько более простых задач-модулей. Одной из концепций, реализующих декомпозицию, является многоуровневый подход. Такой подход дает возможность проводить разработку, тестирование и модификацию каждого отдельного уровня независимо от других уровней. Иерархическая декомпозиция позволяет, перемещаясь в направлении от более низких к более высоким уровням переходить к более простому представлению решаемой задачи.
     </p>
     <div class="row"></div>
-    <p class="text-center">Через модель описывается, как необходимо строить сети на базе различных технологий, чтобы в них работал стек протоколов TCP/IP.</p>
+    <p class="text-center">Специфика многоуровневого представления сетевого взаимодействия состоит в том, что в процессе обмена сообщениями участвуют как минимум две стороны, для которых необходимо обеспечить согласованную работу двух иерархий аппаратно-программных средств. Каждый из уровней должен поддерживать интерфейс с выше- и нижележащими уровнями собственной иерархии средств и интерфейс со средствами взаимодействия другой стороны на том же уровне иерархии. Данный тип интерфейса называется протоколом</p>
     <div class="row"></div>
     
     <figure class="figure">
-      <img src="https://media.proglib.io/wp-uploads/2018/03/%D1%84%D1%8B%D0%B2%D1%84%D1%8B%D0%B2.png" class="col-sm-12 col-md-6 figure-img img-fluid rounded" alt="asd">
-      <figcaption class="figure-caption">В таблице представлено сравнение моделей OSI и TCP/IP. Последняя включает в себя 4 уровня:</figcaption>
+      <img src="http://enisey.name/umk/ipr/img/01_02.gif" class="col-sm-12 col-md-6 figure-img img-fluid rounded" alt="asd">
+      <figcaption class="figure-caption"> Организация взаимодействия между уровнями иерархии при иерархической декомпозиции в сети Интернет</figcaption>
     </figure>
     <br>
     <br>
@@ -157,59 +156,83 @@
       <table class="table table-dark m-auto">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Уровень TCP/IP</th>
-            <th scope="col">Соответствие уровням OSI</th>
-            <th scope="col">Описание</th>
+            <th scope="col">Номер RFC</th>
+            <th scope="col">Тема</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>Уровень сетевых интерфейсов</td>
-            <td>Канальный, физический</td>
-            <td>Самый нижний, <strong>уровень сетевых интерфейсов</strong>, обеспечивает взаимодействие с сетевыми технологиями (Ethernet, Wi-Fi и т. д.). Это объединение функций канального и физического уровней OSI.</td>
+            <td>RFC 768</td>
+            <td>UDP</td>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>Уровень интернет</td>
-            <td>Сетевой</td>
-            <td><Strong>Уровень интернет</Strong> стоит выше, и по задачам перекликается с сетевым уровнем модели OSI. Он обеспечивает поиск оптимального маршрута, включая выявление неполадок в сети. Именно на этом уровне работает маршрутизатор.</td>
+            <td>RFC 791</td>
+            <td>IP</td>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td>Транспортный</td>
-            <td>Транспортный</td>
-            <td><strong> Транспортный</strong> отвечает за связь между процессами на разных компьютерах, а также за доставку переданной информации без дублирования, потерь и ошибок, в необходимой последовательности.</td>
+            <td>RFC 792</td>
+            <td>ICMP</td>
           </tr>
           <tr>
-            <th scope="row">4</th>
-            <td>Прикладной</td>
-            <td>Сеансовый, представления, прикладной.</td>
-            <td><strong>Прикладной</strong> объединил в себе 3 уровня модели OSI: сеансовый, представления и прикладной. То есть он выполняет такие функции, как поддержка сеанса связи, преобразование протоколов и информации, а также взаимодействие пользователя и сети.</td>
+            <td>RFC 793</td>
+            <td>TCP</td>
+          </tr>
+          <tr>
+            <td>RFC 821</td>
+            <td>SMTP, заменён RFC 2821</td>
+          </tr>
+          <tr>
+            <td>RFC 822</td>
+            <td>Формат электронной почты, заменён RFC 2822</td>
+          </tr>
+          <tr>
+            <td>RFC 826</td>
+            <td>Протокол разрешения адреса (ARP)</td>
+          </tr>
+          <tr>
+            <td>RFC 894</td>
+            <td>IP по Ethernet</td>
+          </tr>
+          <tr>
+            <td>RFC 951</td>
+            <td>	Протокол начальной загрузки (BOOTP)</td>
+          </tr>
+          <tr>
+            <td>RFC 959 </td>
+            <td>	FTP</td>
+          </tr>
+          <tr>
+            <td>RFC 977</td>
+            <td>NNTP — устаревший, дополнен RFC 2980 , заменён RFC 3977</td>
+          </tr>
+          <tr>
+            <td>RFC 1034</td>
+            <td>DNS — концепция</td>
+          </tr>
+          <tr>
+            <td>RFC 1035</td>
+            <td>DNS — внедрение</td>
+          </tr>
+          <tr>
+            <td>RFC 1123</td>
+            <td>Требования к хосту 2</td>
+          </tr>
+          <tr>
+            <td>RFC 1191 </td>
+            <td>	Определение MTU пути</td>
+          </tr>
+          <tr>
+            <td>RFC 1256 </td>
+            <td>Обнаружение маршрутизатора в сети</td>
           </tr>
         </tbody>
       </table>
     </div>
     <br>
     <br>
-    <p>Иногда специалисты пытаются объединить обе модели в нечто общее. Например, ниже приведено пятиуровневое представление симбиоза от авторов <a href="https://www.ozon.ru/context/detail/id/135726580/">«Компьютерные сети»</a> Э. Таненбаума и Д. Уэзеролла:</p>
-  </section>
-  <section class="col-md-10 m-auto">
-    <h2 class="text-center">Стек протоколов TCP/IP</h2>
-    <h4 class="text-center">Рассмотрим каждый уровень более подробно.</h4>
-    <img class="col-12 col-sm-8 col-md-7 col-xl-6" src="https://media.proglib.io/wp-uploads/2018/03/%D0%BB%D0%BE%D0%B4%D0%BB%D0%BE.png" alt="asd">
-    <br>
-    <p >Нижний уровень сетевых интерфейсов включает в себя Ethernet, Wi-Fi и DSL (модем). Данные сетевые технологии формально не входят в состав стека, но крайне важны в работе интернета в целом.</p>
-    <br>
-    <p>Основной протокол сетевого уровня – IP (Internet Protocol). Это маршрутизированный протокол, частью которого является адресация сети (IP-адрес). Здесь также работают такие дополнительные протоколы, как ICMP, ARRP и DHCP. Они обеспечивают работу сетей.</p>
-    <br>
-    <p>На транспортной уровне расположились TCP – протокол, обеспечивающий передачу данных с гарантией доставки, и UDP – протокол для быстрой передачи данных, но уже без гарантии.</p>
-    <br>
-    <p>Прикладной уровень – это HTTP (для web), SMTP (передача почты), DNS (назначение IP-адресам понятных доменных имен), FTP (передача файлов). Протоколов на прикладном уровне стека TCP/IP больше, но приведенные можно назвать самыми значимыми для рассмотрения.</p>
-    <br>
-    <p>Помните, что стек протоколов TCP/IP задает стандарты связи между устройствами и содержит соглашения о межсетевом взаимодействии и маршрутизации.</p>
-  </section>
+      <p>Почти все стандарты разрабатываются под эгидой каких-либо научных или интернет-организаций (например W3C, IETF, консорциум Юникода, Интернет2).
+
+        Запросы на отзывы официально существуют только на английском языке. Строгих требований к оформлению нет. Встречаются RFC, написанные в строгом академическом стиле, иные — в дружеской неформальной манере. Существует традиция выпуска первоапрельских шуточных RFC, например, RFC 1149 рассказывает о передаче пакетов IP с помощью почтовых голубей.</p>
   <section class="col-md-6 m-auto ">
     <h2>Возможно, вам будет интересно:</h2>
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
